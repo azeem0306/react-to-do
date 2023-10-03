@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+.content {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+.content > h1 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.task {
+  display: flex;
+  height: 40px;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 25px;
+}
+.task > * {
+  margin: auto 10px;
+}
+
+.task button {
+  background-color: bisque;
+  border: 0;
+  border-radius: 5px;
+  margin-left: 5px;
+  font-size: 15px;
+  height: 30px;
+
+}
+
+.task button:hover {
+  background-color: bisque;
+  transform: scale(1.1);
+  transition-duration: 0.2s;
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+
+}
+
+.task:hover {
+  transition-duration: 0.1s;
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}

@@ -1,0 +1,12 @@
+{
+    "tasks": [
+      {
+        "task": "Wake up",
+        "id": 1
+      },
+      {
+        "task": "Go to school",
+        "id": 2
+      }
+    ]
+  }
